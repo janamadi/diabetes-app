@@ -32,8 +32,8 @@ st.write ("""<style> body {
     #############################################################
 
 #Importing the dataset for visualizations
-data1=pd.read_csv(diabetescount.csv')
-data2=pd.read_csv(Earlydiabetes.csv')
+data1=pd.read_csv(diabetescount.csv)
+data2=pd.read_csv(Earlydiabetes.csv)
 #Importing the dataset for prediction
 data3=pd.read_csv(diabetes.csv)
                 ##############################################################
