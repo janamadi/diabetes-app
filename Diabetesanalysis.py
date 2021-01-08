@@ -1,7 +1,6 @@
 # Importing Libraries
 # for some basic operations
 import streamlit as st
-st.set_page_config(layout="wide")
 import numpy as np
 import pandas as pd
 import datetime
