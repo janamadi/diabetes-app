@@ -44,7 +44,7 @@ st.markdown(hide_streamlit, unsafe_allow_html=True)
 
 # To put a picture in the subheader
 from PIL import Image
-image = Image.open('Diabestes.png')
+image = Image.open('diabestes.png')
 st.image(image,width=None)
 
                 ####################################################################
