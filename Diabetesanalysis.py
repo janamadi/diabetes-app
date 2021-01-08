@@ -32,10 +32,10 @@ st.write ("""<style> body {
     #############################################################
 
 #Importing the dataset for visualizations
-data1=pd.read_csv(r'C:\Users\jana\Desktop\Diabetes\diabetescount.csv')
-data2=pd.read_csv(r'C:\Users\jana\Desktop\Diabetes\Earlydiabetes.csv')
+data1=pd.read_csv(diabetescount.csv')
+data2=pd.read_csv(Earlydiabetes.csv')
 #Importing the dataset for prediction
-data3=pd.read_csv(r'C:\Users\jana\Desktop\Diabetes\diabetes.csv')
+data3=pd.read_csv(diabetes.csv)
                 ##############################################################
 
 hide_streamlit= """  <style> #MainMenu {visibility: hidden;} footer {visibility: hidden;}  </style> """
